@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://mint-intelligent-report.onrender.com',
+        target: 'http://localhost:5001',
         changeOrigin: true,
       }
     }
